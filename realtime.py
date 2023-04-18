@@ -12,9 +12,9 @@ import collections
 from datetime import datetime
 
 # initialize Firebase
-cred = credentials.Certificate('attendance-system-54923-firebase-adminsdk-889ld-23bd754a59.json')
+cred = credentials.Certificate('PATH/TO/JSON/CREDENTIALS.json')
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://attendance-system-54923-default-rtdb.firebaseio.com/'
+    'databaseURL': 'FireBase/Realtime_Database/url_LINK'
 })  
 
 def addToCloud(rollnum):
